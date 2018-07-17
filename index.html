@@ -96,6 +96,45 @@ and line breaks
 <p id="p01">This is a paragraph coloured/styled using an external style sheet by a tag id.</p>
 <p class="test">This is a paragraph coloured/styled using an external style sheet by a tag class.</p>
 <hr>
+<style>
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+<a href="url">link text</a>
+<p>
+	The target attribute specifies where to open the linked document.
+</p>
+<ul>
+	<li>_blank - Opens the linked document in a new window or tab</li>
+	<li>_self - Opens the linked document in the same window/tab as it was clicked (this is default)</li>
+	<li>_parent - Opens the linked document in the parent frame</li>
+	<li>_top - Opens the linked document in the full body of the window</li>
+	<li>framename - Opens the linked document in a named frame</li>
+</ul>
+<a href="https://www.youtube.com/watch?v=jaIo82uT0qs">
+  <img src="PhantomThieves.png" alt="A RIVER IN A DRY LAND" style="width:117 height:113:42px;border:0;">
+</a>
 
 </body>
 </html>
